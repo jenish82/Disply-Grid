@@ -8,29 +8,24 @@ body{
     font-size: 40px;
 }
 .container{
+    border: 1px solid black;
     height: 400px;
-    margin-top: 50px;
+    margin: 50px 30px;
     display: grid;
-    grid-template:repeat(3, 200px) / repeat(4,1fr) ;
-    grid-template-areas: "Header   Header  SideBar SideBar"
-                          "Section Section SideBar SideBar"
-                          "Section Section Footer .";
-   gap:10px 20px;
+    grid-template:repeat(2, 100px) / repeat(4, 200px);
+    place-content: space-between center;
+  
+
 }
 .item-1{
     background-color: #999999;
-    grid-area: Header;
 }
 .item-2{
-    background-color: #ff0404;
-    grid-area: Section;
-    
+    background-color: #ff0404;  
 }
 .item-3{
     background-color: #49ff86;
-    grid-area: SideBar;
 }
 .item-4{
     background-color: #5e5cdb;
-    grid-area: Footer;
 }
