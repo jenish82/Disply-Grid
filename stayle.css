@@ -8,10 +8,11 @@ body{
     font-size: 20px;
 }
 .container{
+    height: 400px;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 20% 20% 25%;
-    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 20% 20% auto;
+    grid-template-rows:100px auto;
 
 }
 .item-1{
@@ -19,10 +20,7 @@ body{
 }
 .item-2{
     background-color: #ff0404;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    
 }
 .item-3{
     background-color: #49ff86;
