@@ -9,6 +9,9 @@ body{
 }
 .container{
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 1fr;
+
 }
 .item-1{
     background-color: #999999;
