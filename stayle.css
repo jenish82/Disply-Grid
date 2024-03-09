@@ -15,6 +15,7 @@ body{
     grid-template-areas: "Header   Header  SideBar SideBar"
                           "Section Section SideBar SideBar"
                           "Section Section Footer .";
+   gap:10px 20px;
 }
 .item-1{
     background-color: #999999;
