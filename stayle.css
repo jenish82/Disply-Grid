@@ -10,7 +10,7 @@ body{
 .container{
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 200px 200px 200px 1fr;
+    grid-template-columns: 20% 60% 25%;
 
 }
 .item-1{
