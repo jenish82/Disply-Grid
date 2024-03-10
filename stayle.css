@@ -6,5 +6,8 @@
 }
 body{
     height: 100vh;
-    background-image:linear-gradient(to top,white, black);
+    background-image:linear-gradient(to top, rgba(255, 255, 0, 0.604), rgba(0, 0, 255, 0.574)), url('https:/picsum.photos/2000');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
 }
