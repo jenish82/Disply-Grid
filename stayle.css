@@ -13,7 +13,8 @@ body{
     height: 400px;
     margin: 50px auto;
     display: grid;
-    grid: auto-flow danse / repeat(10, 1fr);
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 200px;
     gap:20px;
   
 }
@@ -21,10 +22,9 @@ body{
     background-color: gold;
     border: 3px solid rgb(133, 97, 5);
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-.item:nth-child(6n){
-    background-color: blue;
-    grid-column: span 6;
+    place-self: center;
+    /* justify-self: center;
+    align-self: center; */
+
 }
